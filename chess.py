@@ -26,7 +26,7 @@ def bishop_threatens_king(king, piece, pieces):
   king_y = king["pos"]["y"]
   piece_x = piece["pos"]["x"]
   piece_y = piece["pos"]["y"]
-  if (king_x - king_y) == (piece_x - piece_y) or (king_x + king_y) == (piece_x + piece_y)
+  if (king_x - king_y) == (piece_x - piece_y) or (king_x + king_y) == (piece_x + piece_y):
     return True
   return False
 
