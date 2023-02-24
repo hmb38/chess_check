@@ -5,7 +5,7 @@ from chess import parse_concise_board
 class TestAssertions(unittest.TestCase):
 
     def test_equals(self):
-        self.assertEqual("one string", "one string")
+        self.assertEqual(1 + 1,   2)
 
     def test_parse_concise_board(self):
         board = (
